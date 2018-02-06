@@ -1,0 +1,2 @@
+restaurant is new what to do when data is not enough.
+have to store models in to unix file system.

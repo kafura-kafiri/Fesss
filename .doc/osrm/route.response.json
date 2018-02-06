@@ -1,0 +1,200 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "summary": "طاهری, ایثار دوم",
+          "weight": 191.7,
+          "duration": 90.5,
+          "steps": [
+            {
+              "intersections": [
+                {
+                  "out": 0,
+                  "entry": [
+                    true
+                  ],
+                  "bearings": [
+                    280
+                  ],
+                  "location": [
+                    51.421939,
+                    35.779866
+                  ]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": "egkyEcjzxHSrC",
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 280,
+                "bearing_before": 0,
+                "location": [
+                  51.421939,
+                  35.779866
+                ],
+                "type": "depart"
+              },
+              "weight": 52.4,
+              "duration": 20.9,
+              "name": "طاهری",
+              "distance": 67.6
+            },
+            {
+              "intersections": [
+                {
+                  "out": 0,
+                  "in": 1,
+                  "entry": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "bearings": [
+                    15,
+                    105,
+                    285
+                  ],
+                  "location": [
+                    51.4212,
+                    35.779968
+                  ]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": "ygkyEoezxHeBU",
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 9,
+                "bearing_before": 278,
+                "location": [
+                  51.4212,
+                  35.779968
+                ],
+                "modifier": "right",
+                "type": "turn"
+              },
+              "weight": 31.8,
+              "duration": 15.9,
+              "name": "ایثار چهارم",
+              "distance": 57.5
+            },
+            {
+              "intersections": [
+                {
+                  "out": 1,
+                  "in": 0,
+                  "entry": [
+                    false,
+                    true
+                  ],
+                  "bearings": [
+                    195,
+                    285
+                  ],
+                  "location": [
+                    51.42131,
+                    35.780477
+                  ]
+                },
+                {
+                  "out": 2,
+                  "in": 1,
+                  "entry": [
+                    true,
+                    false,
+                    true
+                  ],
+                  "bearings": [
+                    15,
+                    105,
+                    285
+                  ],
+                  "location": [
+                    51.420109,
+                    35.780665
+                  ]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": "_kkyEefzxHe@nFWvD",
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 279,
+                "bearing_before": 9,
+                "location": [
+                  51.42131,
+                  35.780477
+                ],
+                "modifier": "left",
+                "type": "new name"
+              },
+              "weight": 107.5,
+              "duration": 53.7,
+              "name": "ایثار دوم",
+              "distance": 194.2
+            },
+            {
+              "intersections": [
+                {
+                  "in": 0,
+                  "entry": [
+                    true
+                  ],
+                  "bearings": [
+                    100
+                  ],
+                  "location": [
+                    51.419193,
+                    35.780792
+                  ]
+                }
+              ],
+              "driving_side": "right",
+              "geometry": "}lkyE}xyxH",
+              "mode": "driving",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 280,
+                "location": [
+                  51.419193,
+                  35.780792
+                ],
+                "modifier": "left",
+                "type": "arrive"
+              },
+              "weight": 0,
+              "duration": 0,
+              "name": "ایثار دوم",
+              "distance": 0
+            }
+          ],
+          "distance": 319.3
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 191.7,
+      "duration": 90.5,
+      "distance": 319.3
+    }
+  ],
+  "waypoints": [
+    {
+      "hint": "3WUQgv___384AQAArwIAAAAAAAAAAAAAmwAAAFcBAAAAAAAAAAAAAKHoAADzohADGvUhAvSiEAMe9SECAAB_ETRkHKw=",
+      "name": "طاهری",
+      "location": [
+        51.421939,
+        35.779866
+      ]
+    },
+    {
+      "hint": "eSRxhIEkcYTPAQAAKQAAAAAAAAAAAAAA5wAAABUAAAAAAAAAAAAAAKHoAAA5mBADuPghAiyYEAN6-CECAAB_ETRkHKw=",
+      "name": "ایثار دوم",
+      "location": [
+        51.419193,
+        35.780792
+      ]
+    }
+  ],
+  "code": "Ok"
+}

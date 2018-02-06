@@ -5,6 +5,8 @@ import os
 numpy.random.seed(7)
 # load pima indians dataset
 dataset = numpy.loadtxt("pima-indians-diabetes.csv", delimiter=",")
+scaler = MinMaxScaler(feature_range=(0, 1))
+dataset = scaler.fit_transform(dataset)
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
 Y = dataset[:,8]

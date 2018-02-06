@@ -1,9 +1,15 @@
+import numpy
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense, LSTM
+# fix random seed for reproducibility
+numpy.random.seed(7)
+max_types = 10
 
-model = Sequential()
-model.add(Dense(12, input_dim=8, kernel_initializer='uniform', activation='relu'))
-model.add(Dense(8, kernel_initializer='uniform', activation='relu'))
-model.add(Dense(1, kernel_initializer='uniform', activation='sigmoid'))
-# Compile model
-model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+def config(model):
+    model = Sequential()
+    model.add(LSTM(5, input_shape=(1, max_types)))
+    model.add(Dense(1))
+    # Compile model
+    model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+    return model

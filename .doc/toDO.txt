@@ -1,2 +1,8 @@
 restaurant is new what to do when data is not enough.
-have to store models in to unix file system.
+save(): -> store models in to unix file system.
+/feed :restaurant data.
+/get :type, expected, _date, __y__.
+
+
+/feed > reform data > when() to fit > then fit save().
+/get > get() > predict().
